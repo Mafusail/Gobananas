@@ -1,0 +1,26 @@
+.alex{
+    height: 300px;
+    width: 100%;
+    background: #c56cb7;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+}
+
+.kety{
+    height: 300px;
+    width: 100%;
+    background: #c5706a;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+}
+
+.max{
+    height: 300px;
+    width: 100%;
+    background: #6073c5;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+}
