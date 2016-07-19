@@ -1,8 +1,87 @@
+
 body{
     width: 80%;
     margin: 0 auto;
+}
+
+
+#header{
+    height: 310px;
+    background: url("img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#nav{
+    width: 100%;
+    height: 32px;
+    background: #424242;
+}
+
+.sot_set{
+    width: 49%;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 15px;
+    color: #ffffff;
+    float: left;
+}
+
+.sot_set p{
+    display: block;
+    float: left;
+    text-transform: uppercase;
+}
+
+.sot_set img{
+    display: block;
+    width: 21px;
+    float: left;
+    margin: 5.5px;
 
 }
+
+.seadge_a{
+    width: 49%;
+    float: left;
+    position: relative;
+}
+
+.seadge_a input{
+    height: 18px;
+    width: 113px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+
+#top_menu{
+    width: 100%;
+    position: absolute;
+    height: 46px;
+    bottom: 0;
+    background: #000;
+    color: #ffffff;
+
+}
+
+#menu_a li{
+    display: block;
+    float: left;
+    padding:  10px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .alex{
