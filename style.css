@@ -1,7 +1,14 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
 .alex{
     height: 300px;
     width: 100%;
-    background: #c56cb7;
+    background: #8bc55e;
     text-align: center;
     line-height: 300px;
     font-size: 30px;
