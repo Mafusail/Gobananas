@@ -1,9 +1,9 @@
 
-body{
-    width: 80%;
-    margin: 0 auto;
-}
-
+/*body{*/
+    /*width: 80%;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*Саша зачем поставил ширину для body?? вся верстка поплыла, достаточно того,что мы основным div задаем класс container, который делает ширину 80%*/
 
 #header{
     height: 310px;
@@ -181,10 +181,29 @@ a.read-more{
 
 /* block authors*/
 
+#authors{
+    background-color: #424242;
+}
 .best-authors{
     font-family: Arial;
     font-size: 24px;
     text-transform: uppercase;
     line-height: 150%;
 
+}
+.author-pic{
+    display: block;
+    margin: 15px auto;
+    background: #0d0d17;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+
+.white{
+    color: #fff;
+}
+
+.grey{
+    color: #c2c1c1;
 }
