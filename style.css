@@ -215,10 +215,48 @@ h4 {
     font-family: "Arial Narrow", sans-serif;
 }
 
-p {
+grey {
     color: #979596;
 }
 
-#footer .row {
-    background: url("img/footerBackground.png")
+.mazafaka {
+    background: url("img/footerBackground.png");
+    color: #ffffff;
+}
+
+.journal {
+    /*display: inline-block;*/
+    /*float: none;*/
+    /*vertical-align: middle;*/
+    padding-top: 30%;
+}
+
+.journal img {
+    position: absolute;
+}
+
+.sverhu {
+    top: 50%;
+    left: 7%;
+    z-index: 5;
+}
+
+.snizu {
+    top: 20%;
+    left: 5%;
+    z-index: 4;
+}
+
+.journTextContent {
+    padding-top: 40%;
+}
+
+.socialNet {
+    font-size: .7em;
+}
+
+.socialNet img{
+    display: inline-block;
+    width: 21px;
+    margin: 5px;
 }
