@@ -207,3 +207,18 @@ a.read-more{
 .grey{
     color: #c2c1c1;
 }
+
+/* Styles max */
+
+h4 {
+    font-weight: 700;
+    font-family: "Arial Narrow", sans-serif;
+}
+
+p {
+    color: #979596;
+}
+
+#footer .row {
+    background: url("img/footerBackground.png")
+}
