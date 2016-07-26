@@ -252,6 +252,8 @@ h4 {
 .mazafaka {
     background: url("img/footerBackground.png");
     color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .journal {
@@ -282,7 +284,7 @@ h4 {
     .mazafaka {
         position: relative;
         width: 100%;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     .journal {
         padding-top: 5%;
@@ -290,7 +292,7 @@ h4 {
 
     .journal img {
         position: static;
-        width: 30%;
+        width: 50%;
         margin: auto;
     }
 
