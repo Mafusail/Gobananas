@@ -254,7 +254,7 @@ h4 {
 }
 
 .mazafaka {
-    background: url("img/footerBackground.png");
+    background: black;
     color: #ffffff;
     margin-left: 0;
     margin-right: 0;
@@ -269,19 +269,48 @@ h4 {
 }
 
 .sverhu {
-    top: 50%;
-    left: 7%;
+    top: 60%;
+    left: 25%;
     z-index: 5;
 }
 
 .snizu {
-    top: 20%;
-    left: 5%;
+    top: 30%;
+    left: 20%;
     z-index: 4;
 }
 
 .journTextContent {
-    padding-top: 10%;
+    padding-top: 7.5%;
+    padding-left: 5%;
+}
+
+/*.journTextContent div,*/
+/*.journTextContent a {*/
+    /*vertical-align: middle;*/
+/*}*/
+
+.contactsLinks {
+    padding-top: 2%;
+}
+
+.years {
+    padding-top: 2.3%;
+}
+
+.contactsLinks a,
+.journTextContent a
+{
+    color: #ffffff;
+}
+
+.contactsLinks p>a {
+    text-decoration: none;
+}
+
+.impressum {
+    font-size: 0.9em;
+    padding-bottom: 5%;
 }
 
 @media (max-width: 768px) {
@@ -290,6 +319,11 @@ h4 {
         width: 100%;
         font-size: 1.3em;
     }
+
+    .impressum {
+        font-size: 1em;
+    }
+
     .journal {
         padding-top: 5%;
     }
