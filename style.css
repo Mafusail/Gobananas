@@ -369,3 +369,17 @@ h4 {
 #blogs {
     background-color: #f7f7f7;
 }
+
+/*contacts*/
+
+.h3-center{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: impact;
+    margin-top: 40px;
+
+}
+
+.job-desc{
+    font-variant: small-caps;
+}
